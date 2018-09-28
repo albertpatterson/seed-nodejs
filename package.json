@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-seed",
+  "version": "1.0.0",
+  "description": "seed for simple nodejs project",
+  "main": "src/main/javascript.main.js",
+  "scripts": {
+    "run": "node src/main/javascript/main.js",
+    "test": "gulp test",
+    "watch": "gulp watch"
+  },
+  "author": "Albert Patterson",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^6.0.0",
+    "mocha": "^5.2.0"
+  }
+}
